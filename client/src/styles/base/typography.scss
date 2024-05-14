@@ -1,0 +1,24 @@
+@use "/src/styles/utilities/mixins";
+
+p{
+  line-height: 1.6;
+}
+
+h1{
+  font-weight: 600;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+
+h2{ 
+  font-weight: 600;
+  font-size: mixins.rem(24);
+  padding: 0;
+  margin: 0;
+}
+
+h3{
+  margin:0;
+  padding:0;
+}

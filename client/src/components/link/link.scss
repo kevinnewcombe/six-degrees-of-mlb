@@ -1,0 +1,12 @@
+@use "/src/styles/utilities/mixins";
+.link{
+  &__player{
+    font-weight: 700;
+  }
+  &__team{
+    color: var(--color-secondary-text);
+    padding-left: 15px;
+    
+  }
+}
+

@@ -1,0 +1,11 @@
+.links{
+  margin-top: var(--space-xlarge);
+  &__list{
+    gap: var(--space-small);
+    display: grid;
+    list-style-type: none;
+    padding:0;
+    margin:var(--space-small) 0 0;
+  }
+
+}

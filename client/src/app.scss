@@ -1,0 +1,24 @@
+@import 'styles/base/vars.scss';
+@import 'styles/base/global.scss';
+@import 'styles/base/typography.scss';
+@import 'styles/base/buttons.scss';
+@import 'styles/base/forms.scss';
+
+
+.app{
+  margin: 0 auto;
+  max-width: var(--page-width);
+  padding: 0 var(--space-small);
+
+  &__header{
+    margin: var(--space-xlarge) 0 var(--space-large);
+  }
+  &__players{
+    display: grid;
+    gap: var(--space-medium);
+    @media(min-width: 640px){
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+

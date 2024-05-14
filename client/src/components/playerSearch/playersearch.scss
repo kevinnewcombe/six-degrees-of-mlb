@@ -1,0 +1,13 @@
+.playersearch{
+  margin-top: var(--space-small);
+
+  &__list{
+    list-style-type: none;
+    padding: 0;
+    margin:var(--space-small) 0 0;
+
+    li:not(:first-child){
+      margin-top: var(--space-xsmall);
+    }
+  }
+}
