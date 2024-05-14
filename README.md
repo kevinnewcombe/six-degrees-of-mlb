@@ -13,4 +13,4 @@ Find the connections between 2 MLB players. Uses the MLB stats API [which states
 
 
 ### Repo
-[https://github.com/kevinnewcombe/six-degrees-of-mike-sillinger](https://github.com/kevinnewcombe/six-degrees-of-mike-sillinger)
+[https://github.com/kevinnewcombe/six-degrees-of-mlb](https://github.com/kevinnewcombe/six-degrees-of-mlb)
