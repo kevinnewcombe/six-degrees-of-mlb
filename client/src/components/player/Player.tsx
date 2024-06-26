@@ -3,14 +3,14 @@ import { playerProps } from '../../core/types';
 import { useState, useRef } from 'react';
 import PlayerSearch from '../playerSearch/PlayerSearch';
 const Player: React.FC<{label:string, player:playerProps|null, onSetPlayer:React.Dispatch<React.SetStateAction<playerProps | null>>}>= ({label, player, onSetPlayer}) => {
-  console.log(`%cRemount Player.jsx label={"${label}"} player={{fullName: "${player?.fullName}", id:"${player?.id}"}}`, 'background:#0f0; color:#000');
+  // console.log(`%cRemount Player.jsx label={"${label}"} player={{fullName: "${player?.fullName}", id:"${player?.id}"}}`, 'background:#0f0; color:#000');
   const [searchTerm, setSearchTerm] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
 
   function updateSetSearchTerm(e: React.FormEvent<HTMLFormElement>){
     e.preventDefault();
     if(inputRef.current){
-      console.log(`%cupdateSetSearchTerm`, 'background:#fff; color:#000');
+      // console.log(`%cupdateSetSearchTerm`, 'background:#fff; color:#000');
       setSearchTerm(inputRef.current.value);
       inputRef.current.value = '';
     }

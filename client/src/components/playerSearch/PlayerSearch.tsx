@@ -15,7 +15,7 @@ const SEARCH_NAMES = gql`
 `;
 
 const PlayerSearch: React.FC<{searchTerm:string, onSetPlayer:React.Dispatch<React.SetStateAction<playerProps | null>>}>= ({searchTerm, onSetPlayer}) => {
-  console.log(`%cRemount PlayerSearch.jsx searchTerm={${searchTerm}}`, 'background:#0f0; color:#000');
+  // console.log(`%cRemount PlayerSearch.jsx searchTerm={${searchTerm}}`, 'background:#0f0; color:#000');
   const { loading, error, data } = useQuery(SEARCH_NAMES, {
     variables: {
       term: searchTerm
